@@ -101,14 +101,16 @@ export default function Graph({ type = 1, coin = "bitcoin", currency = "usd", da
             }
             data = {
                 labels: dates,
-                datasets: {
-                    data: prices,
-                    borderColor: color,
-                    background: gradient,
-                    tension: .4,
-                    pointRadius: 0,
-                    fill: true
-                }
+                datasets: [
+                    {
+                        data: prices,
+                        borderColor: color,
+                        background: gradient,
+                        tension: .4,
+                        pointRadius: 0,
+                        fill: true
+                    }
+                ]
             }
             break
 
@@ -131,12 +133,14 @@ export default function Graph({ type = 1, coin = "bitcoin", currency = "usd", da
             }
             data = {
                 labels: dates,
-                datasets: {
-                    data: prices,
-                    borderColor: color,
-                    tension: .4,
-                    pointRadius: 0,
-                }
+                datasets: [
+                    {
+                        data: prices,
+                        borderColor: color,
+                        tension: .4,
+                        pointRadius: 0,
+                    }
+                ]
             }
             break
     }
