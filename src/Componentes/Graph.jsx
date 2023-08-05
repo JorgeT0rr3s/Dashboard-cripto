@@ -61,11 +61,11 @@ export default function Graph({ type = 1, coin = "bitcoin", currency = "usd", da
 
     useEffect(() => {
         getData()
-        const canvas = <chartRef className="current firstChild"></chartRef>
-        let BGgradient = canvas.getContext("2d").createLinearGradient(0, 0, 0, canvas.height)
+        const canvas = chartRef.current.firstChild
+        let BGgradient = canvas.getContext("2d").createLinearGradient(0, 0, 0, canvas.height);
         BGgradient.addColorStop(0, 'rgba(4, 191, 157, 1)')
         BGgradient.addColorStop(1, 'rgba(4, 191, 157, 0)')
-        setGradient(BGradient)
+        setGradient(BGgradient)
     }, [])
 
     switch (type) {
@@ -93,7 +93,7 @@ export default function Graph({ type = 1, coin = "bitcoin", currency = "usd", da
                         },
                         ticks: {
                             callback: function (value, index, ticks) {
-                                return `$${value.toString(), replace(/\B(?=(\d{3})+(?!\d))/g, ".")} ${currency.toUpperCase()}`;
+                                return `$${value.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".")} ${currency.toUpperCase()}`;
                             }
                         }
                     }

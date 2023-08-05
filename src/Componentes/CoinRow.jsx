@@ -19,5 +19,5 @@ export default function CoinRow ({coin, index}) {
                 <Graph coin = {coin.id} days={7} color={colorDec(coin.market_cap_change_percentage_24h)} />
             </td>
         </tr>
-    )
+    );
 }
