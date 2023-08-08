@@ -2,9 +2,13 @@
 
     background-color: white;
     display: grid;
-    grid-template-columns: 2rf, 1rf;
+    width: 120px;
 }
 .select img{
     width: 20px;
     height: 20px;
+}
+.select select{
+    width: 50px;
+
 }

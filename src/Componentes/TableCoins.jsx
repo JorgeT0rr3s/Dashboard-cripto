@@ -1,5 +1,6 @@
 import React from "react";
 import CoinRow from "./CoinRow"
+import '../estilos/TableCoins.css'
 
 
 export default  function TableCoins ({coins})  {

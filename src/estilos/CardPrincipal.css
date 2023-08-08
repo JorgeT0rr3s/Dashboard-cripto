@@ -5,6 +5,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0%;
     
 }
 .cripto-first1 {
@@ -27,11 +28,19 @@
 .graphic{
     display: inline-block;
     margin: 0%;
+    width: 90%;
+    height: auto;
     padding: 0%;
     background-color: white;
 }
 .capitalitation-table{
-    width: 80%;
+    width: 90%;
     background-color: white;
 }
 
+.red{
+    color:red;
+}
+.green{
+    color: green;
+}
