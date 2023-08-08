@@ -1,0 +1,11 @@
+.contenedor{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(169, 240, 240);
+    width: 80%;
+}
+.input-convert{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}

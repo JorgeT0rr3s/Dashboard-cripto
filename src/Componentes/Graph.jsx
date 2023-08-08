@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from "react";
 import { Line } from "react-chartjs-2";
+import '../estilos/Header.css'
 //importar propiedades para el grafico libreria chart js
 import {
     Chart as ChartJS,
@@ -15,7 +16,7 @@ import {
 import moment from "moment/moment";
 
 ChartJS.register(
-    CategoryScale,
+    CategoryScale,  
     LinearScale,
     PointElement,
     LineElement,

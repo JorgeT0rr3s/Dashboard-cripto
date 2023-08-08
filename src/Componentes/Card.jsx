@@ -1,6 +1,7 @@
 import React from 'react';
 import { colorDec } from '../App';
 import Graph from './Graph';
+import '../estilos/Card.css'
 
 
 export default function Card ({price, porcentaje, img, coinID, cur})  {

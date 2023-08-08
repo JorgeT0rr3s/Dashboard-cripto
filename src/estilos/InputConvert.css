@@ -1,0 +1,10 @@
+.input{
+
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2rf, 1rf;
+}
+.select img{
+    width: 20px;
+    height: 20px;
+}

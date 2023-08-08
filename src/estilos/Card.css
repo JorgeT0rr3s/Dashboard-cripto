@@ -1,0 +1,24 @@
+.card{
+    margin: 5%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    background-color: rgb(34, 117, 90);
+}
+.card img{
+    max-width: 100px; 
+    height: auto; 
+}
+.con-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+.con-title{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+}

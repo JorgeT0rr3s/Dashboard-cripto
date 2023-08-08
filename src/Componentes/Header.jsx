@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTheme } from './ThemeProvider';
+import '../estilos/Header.css'
 
 
 export default function Header({ currencys, fun, cur }) {

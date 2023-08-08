@@ -1,6 +1,7 @@
 import React from "react";
 import { deleteDec, colorDec, numberF } from "../App";
 import Graph from "./Graph";
+import '../estilos/CoinRow.css'
 
 export default function CoinRow ({coin, index}) {
     return (

@@ -1,0 +1,7 @@
+.coin_image_container{
+    display: inline-block;
+}
+.coin_image_container img{
+    width: 30px;
+    height: 30px;
+}

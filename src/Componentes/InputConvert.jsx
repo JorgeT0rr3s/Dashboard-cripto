@@ -1,6 +1,6 @@
 import React, {useState, useRef} from "react"
 import { deleteDec } from "../App"
-
+import '../estilos/InputConvert.css'
 
 export default function InputConvert ({coin, sel='btc', fun, other, text, type = 1, result = 0})  {
 

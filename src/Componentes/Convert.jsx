@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import InputConvert from "./InputConvert"; // Componente 
 import { FaExchangeAlt } from "react-icons/fa"; // Icono 
-// import "./Convert.css"; // Estilos 
 // import { object } from "prop-types";
+import '../estilos/Convert.css'
 
 export default function Convert() {
     const [coin, setCoin] = useState([])
@@ -34,9 +34,9 @@ export default function Convert() {
     useEffect(_ => {
         let a, b
         coin.forEach(({ symbol, current_price }) => {
-            if (symbol == selCoin1) {
+            if (symbol === selCoin1) {
                 a = (mainTxt * current_price) / 1
-            } else if (symbol == selCoin2) {
+            } else if (symbol === selCoin2) {
                 b = current_price
             }
         })

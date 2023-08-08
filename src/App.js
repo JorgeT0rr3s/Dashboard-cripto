@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import { Line } from "react-chartjs-2";
 import Header from './Componentes/Header';
 import CardPrincipal from './Componentes/CardPrincipal';
 import Card from './Componentes/Card';
