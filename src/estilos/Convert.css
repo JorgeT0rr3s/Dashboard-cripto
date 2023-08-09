@@ -1,12 +1,14 @@
 .contenedor{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     background-color: rgb(169, 240, 240);
     width: 80%;
+    height: 150px;
 }
 .input-convert{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-around;
     gap: 10px;
 }

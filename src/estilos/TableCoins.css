@@ -13,14 +13,13 @@
     background-color: #fff;
 }
 
-.table th:last-child,
-.table td:last-child {
-    border-right: none;
-}
 
 /* Espacio entre columnas */
 .table th,
 .table td {
-    padding: 8px 12px;
+    padding: 20px 12px;
     /* Añade más espacio horizontal si es necesario */
+}
+.table{
+    margin-top: 50px;
 }

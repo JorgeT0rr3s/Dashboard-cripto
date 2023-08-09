@@ -27,9 +27,13 @@
     gap: 5%;
 }
 
-.red{
+.porcentaje .red{
+    background-color: white;
+    border-radius: 5px;
     color:red;
 }
-.green{
+.porcentaje .green{
+    background-color: white;
+    border-radius: 5px;
     color: green;
 }

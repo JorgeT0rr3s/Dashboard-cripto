@@ -2,10 +2,8 @@
     width: 100%;
     background-color: rgb(10, 65, 46);
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-left:15%;
-    padding-right: 15%;
 }
 .select-button{
     gap: 20%;

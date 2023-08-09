@@ -5,7 +5,7 @@ import '../estilos/TableCoins.css'
 
 export default  function TableCoins ({coins})  {
     return(
-        <table>
+        <table className="table">
             <thead>
                 <tr>
                     <td>#</td>

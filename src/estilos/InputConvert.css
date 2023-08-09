@@ -1,8 +1,8 @@
 .input{
 
     background-color: white;
-    display: grid;
-    width: 120px;
+    display: flex;
+    flex-wrap: nowrap;
 }
 .select img{
     width: 20px;
