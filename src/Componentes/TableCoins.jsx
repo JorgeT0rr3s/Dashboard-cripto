@@ -1,11 +1,17 @@
 import React from "react";
 import CoinRow from "./CoinRow"
 import '../estilos/TableCoins.css'
+import { useTheme } from "./ThemeProvider";
 
+export default function TableCoins({ coins }) {
+    const { theme } = useTheme();
+    const tableStyles = {
+        background: theme.background,
+        color: theme.text,
+    };
 
-export default  function TableCoins ({coins})  {
-    return(
-        <table className="table">
+    return (
+        <table className="table" style={tableStyles}>
             <thead>
                 <tr>
                     <td>#</td>
@@ -20,7 +26,7 @@ export default  function TableCoins ({coins})  {
 
             <tbody>
                 {coins.map((coin, index) => (
-                    <CoinRow coin={coin} key={index} index= {index + 1}/>))}
+                    <CoinRow coin={coin} key={index} index={index + 1} />))}
             </tbody>
         </table>
     )

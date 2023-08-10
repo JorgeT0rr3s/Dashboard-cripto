@@ -1,12 +1,21 @@
 .footer{
+    height: auto;
     width: 100%;
-    background-color: rgb(10, 65, 46);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15%px;
+    padding: 40px 15px;
+    display: grid;
+    grid-auto-columns: 1rem;
+    grid-template-columns: repeat(1, minmax(min(100%, 50%),1fr));
+    row-gap: 1rem;
+}
+    
+.footer-up{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    place-items: center center;
+    max-width: 90%;
+    margin: auto;
 }
 .footer-up p{
-    width: 70%;
-    
+    font-size: 1.2rem;
+
 }

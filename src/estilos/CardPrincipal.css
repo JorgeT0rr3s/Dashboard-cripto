@@ -1,12 +1,12 @@
 .cripto-first{
-    margin: 10%;
-    border-radius: 15px;
+    margin: 5%;
+    border-radius: 20px;
     background-color: rgb(34, 117, 90);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0%;
-    
+    color: white;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    width: 95%;
 }
 .cripto-first1 {
     display: flex;
@@ -25,13 +25,18 @@
     
 }
 
-.graphic{
-    display: inline-block;
-    margin: 0%;
-    width: 90%;
-    height: auto;
-    padding: 0%;
-    background-color: white;
+.cripto-first .graphic{
+    background: #fff;
+    border-radius: 5px;
+    height: 250px;
+    margin: 20px;
+    padding: 5px;
+    position: relative;
+}
+.graphic .graph {
+    display: grid;
+    height: 100%;
+    width: 100%;
 }
 .capitalitation-table{
     width: 90%;

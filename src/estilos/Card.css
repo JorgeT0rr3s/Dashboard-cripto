@@ -1,39 +1,54 @@
 .card{
-    margin: 5%;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    gap: 10px;
-    align-items: center;
-    background-color: rgb(34, 117, 90);
+
+background-color: #02735e;
+border-radius: 20px;
+display: grid;
+grid-template-columns: 1fr 2fr;
+padding: 15px 20px;
+justify-content: center;
+width: 100%;
 }
-.card img{
-    max-width: 100px; 
-    height: auto; 
-}
-.con-main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-}
-.con-main:nth-child(2){
-    width: 90%;
+
+.card img {
+    max-width: 100px;
     height: auto;
 }
-.con-title{
+
+.con-main {
+    padding:  1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Dos columnas, con la gráfica ocupando más espacio */
+    gap: 1rem;
+    /* Espacio entre los elementos */
+    justify-content: center;
+    /* Centrar verticalmente los elementos */
+    overflow: hidden;
+}
+
+.con-main .graph {
+    width: 50vw;
+    height: 20vh;
+}
+
+.con-title {
     display: flex;
     justify-content: center;
     gap: 5%;
 }
 
-.porcentaje .red{
+.porcentaje {
     background-color: white;
     border-radius: 5px;
-    color:red;
 }
-.porcentaje .green{
-    background-color: white;
-    border-radius: 5px;
-    color: green;
+
+@media (min-width: 1440) { 
+    .card {
+        width: 80%;
+    }
+}
+.graphic .graph{
+    width: 100%;
+    height: 100%;
+    display: grid;
 }

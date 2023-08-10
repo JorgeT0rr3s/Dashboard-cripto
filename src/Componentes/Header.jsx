@@ -7,7 +7,7 @@ export default function Header({ currencys, fun, cur }) {
     const {theme, toggleTheme} = useTheme();
 
     return (
-        <header className='app-header'>
+        <header className='app-header' style={{ background: theme.background, color: theme.text }}>
             <p> Cripto Stadistics</p>
             <div className='select-button'>
                 <select value={cur} name="coinSelect" id="coinSelect" onChange={() => {fun(document.getElementById("coinSelect").value)}}>

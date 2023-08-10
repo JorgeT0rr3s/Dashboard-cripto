@@ -37,16 +37,41 @@
   }
 } */
 
-main{
+main {
+  grid-gap: 30px;
   display: grid;
+  gap: 30px;
   grid-template-columns: repeat(2, 1fr);
-  gap: 3%;
-  width: 100%;
+  margin: auto;
+  padding: 50px 0;
+  align-items: center;
+  width: calc(87% + 30px);
 }
+
 .App {
   display: flex;
   text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.cards_con{
+grid-gap: 20px;
+align-self: stretch;
+display: grid;
+gap: 20px;
+height: 509px;
+width: 90%;
+}
+.green, .red{
+  font-weight: bold;
+}
+.red {
+
+  color: red;
+}
+
+.green {
+
+  color: green;
 }

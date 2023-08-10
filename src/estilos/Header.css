@@ -1,10 +1,36 @@
 .app-header{
+    /* background-color: theme.background;
+    color: theme.text; */
     width: 100%;
-    background-color: rgb(10, 65, 46);
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 .select-button{
-    gap: 20%;
+    display: flex;
+    gap: 2rem   ;
+}
+
+#coinSelect{
+    background-color: initial;
+    border: none;
+    color: #000000;
+    font-size: 1.2rem;
+    height: 20px;
+    margin-right: 1.6rem;
+    text-transform: uppercase
+}
+
+.app-header p {
+    font-family: Roboto,sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    margin: 2%;
+}
+
+.toogleMode{
+    margin-right: 1.6rem;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
 }
