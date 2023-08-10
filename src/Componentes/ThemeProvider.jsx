@@ -3,7 +3,7 @@ import { BsFillMoonFill, BsFillSunFill } from "react-icons/bs";
 
 const themeStyles = {
     dark: {
-        background: '#01211E',
+        background: '#043430',
         text: 'white',
         img: <BsFillMoonFill />
     },
